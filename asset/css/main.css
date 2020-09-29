@@ -151,15 +151,25 @@
 
 .container-career-work .title {
   text-align: center;
+  background: url(../img/bg-banner-career.jpg);
+  height: 312px;
+  color: white;
+  background-position-x: 45%;
 }
 
 .container-career-work .title h3 {
   font-size: 4.5rem;
+  margin: 0;
   margin-bottom: 2.5rem;
+  padding-top: 14%;
 }
 
 .container-career-work .title p {
   font-size: 1.6rem;
+}
+
+.container-career-work .career__title {
+  font-size: 1.8rem;
 }
 
 .container-career-work .career__list {
