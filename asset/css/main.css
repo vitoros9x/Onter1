@@ -1,0 +1,209 @@
+.container-career .banner {
+  background: url(../img/bg-banner.jpg) no-repeat;
+  height: 750px;
+  background-size: cover;
+  background-position-x: 45%;
+  position: relative;
+}
+
+.container-career .banner__content {
+  color: white;
+  position: absolute;
+  top: 25%;
+}
+
+.container-career .banner__content h3 {
+  font-size: 4.6rem;
+  line-height: 5.4rem;
+  margin-bottom: 2rem;
+}
+
+.container-career .banner__content p {
+  font-size: 1.8rem;
+  margin-bottom: 6rem;
+}
+
+.container-career .banner__content a {
+  padding: 16px 62px;
+  border-radius: 50px;
+  background-color: var(--button-color);
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-career .body {
+  color: var(--text-color);
+}
+
+.container-career .body__intro-content {
+  text-align: center;
+}
+
+.container-career .body__intro-content h3 {
+  font-size: 4.5rem;
+}
+
+.container-career .body__intro-content p {
+  font-size: 1.65rem;
+  margin: 25px;
+}
+
+.container-career .body__intro-img {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container-career .body__intro-img img {
+  width: 22%;
+  margin: 0 16px;
+}
+
+.container-career .body__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.container-career .body__info-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-career .body__info-content-number {
+  margin-left: 34px;
+}
+
+.container-career .body__info-content-number h3 {
+  font-size: 5rem;
+  margin: 0;
+  margin-top: 3rem;
+}
+
+.container-career .body__info-content-number p {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.container-career .body__career-view-more {
+  font-size: 1.6rem;
+  text-align: right;
+}
+
+.container-career .body__career-view-more a {
+  text-decoration: none;
+  color: #0089ff;
+}
+
+.container-career .body__career-view-more a:hover {
+  text-decoration: underline;
+}
+
+.container-career .body__career-title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.container-career .body__career-work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-career .body__career-list {
+  list-style: none;
+  width: 48%;
+  padding: 0;
+}
+
+.container-career .body__career-list p {
+  font-size: 1.4rem;
+}
+
+.container-career .body__career-list-title {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.container-career .body__career-list--italic {
+  font-style: italic;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.container-career .body__career-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.container-career-work .title {
+  text-align: center;
+}
+
+.container-career-work .title h3 {
+  font-size: 4.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.container-career-work .title p {
+  font-size: 1.6rem;
+}
+
+.container-career-work .career__list {
+  padding: 0;
+  list-style: none;
+}
+
+.container-career-work .career__list-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-career-work .career__list-info .tooltip {
+  position: relative;
+  display: inline-block;
+  font-size: 1.4rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container-career-work .career__list-info .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  font-size: 1.4rem;
+  left: 0;
+  top: 100%;
+  -webkit-transition: 0.25s linear;
+  transition: 0.25s linear;
+  opacity: 0;
+  -webkit-transform: translateX(-25%);
+          transform: translateX(-25%);
+}
+
+.container-career-work .career__list-info .tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+/*# sourceMappingURL=main.css.map */
