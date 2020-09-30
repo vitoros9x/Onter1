@@ -1,3 +1,5 @@
+// Trang chủ tuyển dụng
+
 .container-career {
     .banner {
         background: url(../img/bg-banner.jpg) no-repeat;
@@ -122,11 +124,16 @@
                 &-title {
                     flex: 3;
                 }
+
+                &-info {
+                    flex: 2;
+                    display: flex;
+                }
     
                 &--italic {
                     font-style: italic;
-                    flex: 1;
                     text-align: center;
+                    flex: 1;
                 }
                 
                 li {
@@ -136,6 +143,142 @@
             }
         }
     }
+}
+
+@media screen  and (max-width:1200px) {
+    .container-career {
+
+        .banner {
+            background-position-x: 35%;
+
+            &__content {
+                padding-left: 6%;
+            }
+        }
+
+        .body {
+
+            &__intro-img {
+                img {
+                    width: 20%;
+                }
+            }
+
+            &__info {
+                padding: 0 3%;
+            }
+        }
+    }
+}
+
+@media screen  and (max-width:992px) {
+    .container-career {
+
+        .banner {
+            background: url(../img/bg-banner-mobile.jpg) no-repeat;
+            background-size: cover;
+            height: 420px;
+            background-position-y: 16%;
+
+            &__content {
+                padding-left: 0;
+                text-align: center;
+                top: 8%;
+            }
+        }
+
+        .body {
+
+            &__intro {
+                padding-top: 30px;
+
+                &-content {
+                    padding: 0px 9%;
+                }
+            }
+
+            &__info {
+                flex-wrap: wrap;
+                justify-content: center;
+
+                &-content {
+                    flex: none;
+                    width: 40%;
+                }
+            }
+
+            &__career {
+                padding: 0 10%;
+
+                &-list-info {
+                    flex-wrap: wrap-reverse;
+                    flex: 1;
+                }
+
+                &-list--italic {
+                    flex: none;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen  and (max-width:768px) {
+    .container-career {
+
+        .banner {
+
+            &__content {
+                
+                h3 {
+                    font-size: 3rem;
+                    line-height: 3.4rem;
+                    margin-bottom: 2rem;
+                    margin-top: 50px;
+                }
+            }
+        }
+
+        .body {
+
+            &__intro-content {
+                
+                h3 {
+                    font-size: 3.5rem;
+                }
+
+                p {
+                    text-align: justify;
+                }
+            }
+
+            &__info {
+
+                &-content {
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+
+            &__career {
+                &-title {
+                    font-size: 3rem;
+                }
+
+                &-work {
+                    flex-wrap: wrap;
+                }
+
+                &-list {
+                    width: 100%;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+
 }
 
 
