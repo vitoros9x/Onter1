@@ -266,6 +266,20 @@
     padding-top: 80px;
     line-height: 1.2;
   }
+  .container-career-work .career__list-info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container-career-work .career__list-info .tooltip {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 50%;
+    margin: 8px 0;
+  }
+  .container-career-work .career__list-button {
+    display: none;
+  }
 }
 
 .container-career-detail .detail-header {

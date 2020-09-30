@@ -259,6 +259,22 @@
 
         .career {
             
+            &__list {
+
+                &-info {
+                    flex-wrap: wrap;
+
+                    .tooltip {
+                        flex: none;
+                        width: 50%;
+                        margin: 8px 0;
+                    }
+                }
+
+                &-button {
+                    display: none;
+                }
+            }
         }
     }
 }
