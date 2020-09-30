@@ -398,3 +398,86 @@
         }
     }
 }
+
+@media screen  and (max-width:1200px) {
+    .container-career-detail {
+
+        .grid {
+            padding: 0 8%;
+
+            .detail-header {
+
+                &__button {
+                    padding: 22px 50px;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen  and (max-width:992px) {
+    .container-career-detail {
+
+        .grid {
+            padding: 0 8%;
+
+            .detail-header {
+
+                &__button {
+                    padding: 22px 25px;
+                    margin-right: 30px;
+                }
+            }
+
+            .detail__aside {
+
+                &-other {
+                    h3 {
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen  and (max-width:768px) {
+    .container-career-detail {
+        
+        .detail-header {
+
+            &__button {
+                display: none;
+            }
+        }
+
+        .detail__aside {
+
+            &-content {
+                margin: 0px 12px;
+            }
+
+            
+        }
+    }
+
+}
+
+@media screen  and (max-width:576px) {
+    .container-career-detail {
+        .grid {
+            padding: 0 5%;
+
+            .detail-header {
+                h3 {
+                    line-height: 1.5;
+                }
+            }
+
+            .detail {
+                display: block;
+            }
+        }
+    }
+}
