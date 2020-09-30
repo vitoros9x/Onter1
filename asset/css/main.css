@@ -252,6 +252,41 @@
     width: 100%;
     margin: 0;
   }
+  .container-career .body__career-list-info {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 30%;
+  }
+  .container-career .body__career-list-title {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 70%;
+  }
+  .container-career .body__career-list--italic {
+    margin: 0 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-career .body__intro-img {
+    display: none;
+  }
+  .container-career .body__intro-content {
+    padding: 0;
+  }
+  .container-career .body__intro-content h3 {
+    line-height: 1.2;
+  }
+  .container-career .body__info-content {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 
 .container-career-work .title {

@@ -273,12 +273,54 @@
                 &-list {
                     width: 100%;
                     margin: 0;
+
+                    &-info {
+                        align-items: center;
+                        flex: none;
+                        width: 30%;
+                    }
+
+                    &-title {
+                        flex: none;
+                        width: 70%;
+                    }
+
+                    &--italic {
+                        margin: 0 6px  ;
+                    }
                 }
             }
         }
     }
 
 
+}
+
+@media screen  and (max-width:768px) {
+    .container-career {
+
+        .body {
+            &__intro-img {
+                display: none;
+            }
+
+            &__intro-content {
+                padding: 0;
+
+                h3 {
+                    line-height: 1.2;
+                }
+            }
+
+            &__info {
+                &-content {
+                    justify-content: flex-start;
+
+                    
+                }
+            }
+        }
+    }
 }
 
 
