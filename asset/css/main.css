@@ -593,5 +593,8 @@
   .container-career-detail .grid .detail {
     display: block;
   }
+  .container-career-detail .grid .detail__aside-content {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
