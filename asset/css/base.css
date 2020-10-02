@@ -51,4 +51,18 @@ a:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+
+.fixed {
+  width: 1150px;
+  max-width: 100%;
+  position: fixed;
+  top: 0px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=base.css.map */
